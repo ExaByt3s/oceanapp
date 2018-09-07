@@ -1,15 +1,15 @@
 # OCEAN Backend API, Laravel
-Auction and bidding for redundant goods, backend for iOS app.
+Control Media And users, backend for iOS app.
 
 Overview
-1. Main Features
+# 1. Main Features
 User management
 Signup, Login, Profile, Setting, ...
 Item Management
 Upload, Search, Category, ...
 Make new section
 Upload Audio Video Photo , ...
-2. Techniques
+# 2. Techniques
 2.1 Laravel PHP Framework v5.5
 Create and maintain database using migration
 Based on api middleware, api_token and Auth are used for user authentication
