@@ -644,7 +644,7 @@ For more details check <a href='https://radib.com/documentation/api.html' target
                             foreach ($Topic->fields as $t_field) {
                                 if ($t_field->field_id == $customField->id) {
                                     if ($customField->type == 7) {
-                                        // if multi check
+                                        
                                         $cf_saved_val_array = explode(", ", $t_field->field_value);
                                     } else {
                                         $cf_saved_val = $t_field->field_value;
