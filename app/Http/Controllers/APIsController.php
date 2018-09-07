@@ -621,7 +621,10 @@ For more details check <a href='https://radib.com/documentation/api.html' target
                             'href' => "topics/cat/" . $category->id
                         ];
                     }
-                    // additional fields
+
+
+
+                    // additional fields For saved values
                     $Additional_fields = [];
                     foreach ($Topic->webmasterSection->customFields as $customField) {
 
