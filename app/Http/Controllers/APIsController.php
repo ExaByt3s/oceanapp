@@ -622,7 +622,17 @@ For more details check <a href='https://radib.com/documentation/api.html' target
                         ];
                     }
 
-
+                    //
+                   //  $response_details[] = [
+                   //      'id' => $Section->id,
+                   //      'title' => $Section->$title_var,
+                   //      'icon' => $Section->icon,
+                   //      'photo' => ($Section->photo != "") ? url("") . "/uploads/sections/" . $Section->photo : null,
+                   //      'href' => "topics/cat/" . $Section->id,
+                   //      'sub_categories_count' => count($SubSections),
+                   //      'sub_categories' => $sub_response_details
+                   //  ];
+                   //
 
                     // additional fields For saved values
                     $Additional_fields = [];
