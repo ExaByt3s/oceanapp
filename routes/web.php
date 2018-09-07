@@ -266,7 +266,7 @@ Route::Group(['prefix' => env('BACKEND_PATH')], function () {
 
 // .. End of Backend Routes
 
-// RESTful API routes
+// RESTful API routes For Webservice - OCEANAPP
 Route::Group(['prefix' => '/api/v1'], function () {
     Route::get('/', 'APIsController@api');
     // general
